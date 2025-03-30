@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarfraj Portfolia</title>
+    <!-- font taken from boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <img src="images1/Logo.jpg" alt="Logo">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <img src="images1/moon.png" id="icon">
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            
+            <h3>Hello,It's Me</h3>
+            <h1>Sarfraj Alam</h1>
+            <h3>And I'am a <span class="multiple-text"></span></h3>
+            <p> "I'm a full-stack Java developer with expertise in Spring Boot, React, and Angular and web developer .
+                 I build scalable and efficient web applications, working with databases like MySQL. Passionate about problem-solving and continuous learning, I enjoy creating impactful software solutions.".</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/sarfrajalam390/"> <i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/sarfrajalam390"> <i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/alam.sarfraj.390/"> <i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://t.me/sarfrajalam39"><i class='bx bxl-telegram'></i> </a>
+                <a href="https://www.facebook.com/alam.sarfraj.390/"> <i class='bx bxl-facebook-circle'></i></a>
+            </div>
+            <a href="Sarfraj_Alam1.pdf" download class="btn">Download CV</a>
+            <!---time set-->
+            <div class="containers">
+                <div class="clock">
+                    <span id="hrs">00</span>
+                    <span>:</span>
+                    <span id="min">00</span>
+                    <span>:</span>
+                    <span id="sec">00</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="contents">
+                <img src="images1/profile.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images1/about.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span> </h1>
+                    <h2 class="col">"Hi my name is Sarfraj Alam. I am Student Of Guru Nanak Institution technical Campus. I am
+                        a responsible<br> person,able to work under pressure,
+                        and able to work with team or individual."
+                        You can expect me <br>to be outgoing and accommodating,and work independently,efficiently And
+                        well-structured.<br> <span class="cool"></span>
+
+                    </h2>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android App</li>
+                            <li><span>Language Known</span><br>C, Java, Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>UI/UX Design at GNIT</li>
+                            <li><span>2020-2022</span><br>Team Leader In Brumous at GNI</li>
+                            <li><span>2018-2019</span><br>Web Developer at Technophilia Solution</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech in Guru Nanak Institutions Technical Campus,Hyderabad(India)</li>
+                            <li><span>2018-2020</span><br>Intermediate in Om National Academy,Birgunj(Nepal)</li>
+                            <li><span>2006-2018</span><br> Schooling From Galaxy Public School,Kalaiya(Nepal)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>We offer comprehensive web development services, including frontend and backend development, database
+                    integration, e-commerce solutions, responsive design, security enhancement, and ongoing maintenance
+                    and support. Our expertise ensures tailored, user-friendly websites optimized for performance and
+                    scalability. </p>
+                <!-- <a href="https://github.com/SarfrajAlam390" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-block'></i>
+                <h3>Software Developer</h3>
+                <p>Our software development services offer tailored solutions to meet your unique needs, including
+                    custom software applications, mobile app development With expertise in cutting-edge technologies and
+                    agile methodologies, we deliver scalable software solutions that drive innovation business
+                    process. </p>
+                <!-- <a href="https://github.com/SarfrajAlam390" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Designer</h3>
+                <p>Our graphic design services deliver captivating visual solutions tailored to your brand's identity,
+                    encompassing logo design, branding, print materials, and digital assets. With meticulous attention
+                    to detail and creative flair, we bring your vision to life with stunning designs that resonate with
+                    your audience. </p>
+                <!-- <a href="https://www.figma.com/file/2EQA5ox7G3RKoQ7MTK4Ngf/Untitled?type=design&node-id=0%3A1&mode=design&t=U3OGrqSGghbO6kDw-1" class="btn">Read More</a> -->
+            </div>
+            
+        </div>
+    </section>
+
+    <!--protofolio section-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images1/Face_Recognition.jpg" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Face Recognition</h4>
+                    <p>The Face Recognition React project enables users to detect and recognize faces using a seamless and responsive UI. </p>
+                    <!-- <a href="https://github.com/SarfrajAlam390"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images1/help nation.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <!-- <h4>E-Commerce Website</h4> -->
+                    <h4>Help Nation Website</h4>
+                    <p>Developed a responsive Help Nation web app using HTML, CSS, and JavaScript to quickly
+                         inform relevant authorities about public problems. The platform enables users to report 
+                        issues efficiently, ensuring timely intervention and improved community response. </p>
+                    <!-- <a href="https://github.com/SarfrajAlam390/HelpNation"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images1/toursim.png" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Tourism Website</h4>
+                    <p>For my tourism website project, I crafted an immersive user experience with seamless navigation
+                        and integration of features like destination guides and booking systems. </p>
+                    <!-- <a href="https://github.com/SarfrajAlam390"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+           
+
+            <div class="portfolio-box">
+                <img src="images1/document_summarize.webp" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Document Summarization</h4>
+                    <p>Document summarization is the process of condensing a text document into a shorter version while retaining its key information and meaning. </p>
+                    <!-- <a href=""><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images1/GMS.jpg" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Grocery Management System</h4>
+                    <p>In constructing a Grocery management system using Spring Tool Suite, I architected a robust
+                        platform facilitating tasks such as purchases,sales and remaining stocks in inventory at realtime.
+                    </p>
+                    <!-- <a href="https://github.com/SarfrajAlam390"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images1/MINIProject.jpg" width="520" height="270">
+                <div class="portfolio-layer">
+                    <h4>Image Embedded WaterMarking System</h4>
+                    <p>In constructing a Grocery management system using Spring Tool Suite, I architected a robust
+                        platform facilitating tasks such as purchases,sales and remaining stocks in inventory at realtime.
+                    </p>
+                    <!-- <a href="https://github.com/SarfrajAlam390"><i class='bx bx-link-external'></i></a> -->
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class='bx bxs-paper-plane'></i>aalamsarfraj390@gmail.com</p>
+                    <p><i class='bx bxs-phone-call'></i>+91-9390307379</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sarfrajalam390/"> <i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/sarfrajalam390"> <i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/alam.sarfraj.390/"> <i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://t.me/sarfrajalam39"><i class='bx bxl-telegram'></i> </a>
+                        <a href="https://www.facebook.com/alam.sarfraj.390/"> <i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                    <a href="Sarfraj_Alam1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbwshoPO7c90-XMD5M4vYbRLgBpy3ngaClmd2COg9mavjJtSxCKcOKGNyPKPlfpM2A8O/exec" name="contact-form">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Number" placeholder="Your Number" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="thank-you-message" style="display: none;">
+            <p>Thank you for your message! We will get back to you soon.</p>
+        </div>
+    </section>
+
+    <!-------------Footer-->
+    <div class="footer">
+        <div class="conatiner">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App For Android And IOS Mobile Phones.</p>
+                   
+                </div>
+                <div class="footer-col-2">
+                    <img src="images1/Logo.jpg">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Website Accessible To The Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3> Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3> Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright <span>Sarfraj_Alam</span>.Com</p>
+        </div>
+    </div>
+
+    <!--javaScript-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---typped js-->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.forms['contact-form'].onsubmit = function(event) {
+          event.preventDefault(); // Prevent default form submission
+      
+          var form = this;
+          var formData = new FormData(form);
+      
+          // Make an AJAX request to submit the form
+          fetch(form.action, {
+            method: form.method,
+            body: formData
+          })
+          .then(response => response.json()) // assuming the server responds with JSON
+          .then(data => {
+            if (data.success) {
+              document.getElementById("thank-you-message").style.display = "block";
+              form.reset(); // reset the form after successful submission
+            } else {
+              alert("Oops! There was an error submitting the form.");
+            }
+          });
+        };
+      </script>
+      
+</body>
+
+</html>
