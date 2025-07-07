@@ -105,7 +105,7 @@ ScrollReveal().reveal('.home-content p', { origin: 'right' });
 
 /* Typed JS for dynamic text */
 const typed = new Typed('.multiple-text', {
-    strings: ['Student Of GNIT', 'Web Developer', 'Graphic Designer', 'Software Developer'],
+    strings: ['Student Of GNITC', 'Web Developer', 'Graphic Designer', 'Software Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
